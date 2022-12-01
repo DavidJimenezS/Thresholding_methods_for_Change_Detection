@@ -19,11 +19,12 @@ clc
 
 warning off
 
+addpath(genpath(pwd))
 addpath(genpath(strcat(pwd,'\Data\')))
 addpath(genpath(strcat(pwd,'\Functions\')))
 
 %% Initialization
-addpath(genpath('C:\Users\lenoco\Desktop\CD databases'));
+
 %________________ lake data ___________
 %load('mulargia_95_96.mat')
 %load('fire_2013.mat')
