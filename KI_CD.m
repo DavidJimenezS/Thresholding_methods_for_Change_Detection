@@ -20,8 +20,6 @@ clc
 warning off
 
 addpath(genpath(pwd))
-addpath(genpath(strcat(pwd,'\Data\')))
-addpath(genpath(strcat(pwd,'\Functions\')))
 
 %% Initialization
 
